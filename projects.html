@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Copyright (©) 2022 - 2023 Jesse Hodgson. All Rights Reserved -->
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jesse Hodgson's personal projects.">
+    <title>SpaceGameDev's Website</title>
+    <link rel="shortcut icon" type="image/ico" href="https://assets.spacegamedev.com/images\webp\sgd-logo-round.webp"/>
+    <link rel="stylesheet" href="css\main.css">
+    <link rel="stylesheet" href="css\projects.css">
+    <link rel="preconnect" href="https://assets.spacegamedev.com"/>
+    <link rel="preload" href="https://assets.spacegamedev.com/css/fonts/Orbitron-VariableFont_wght.woff2" as="font" crossorigin="anonymous">
+    <!--<link rel="preload" href="https://assets.spacegamedev.com/css/fonts/OpenSans-VariableFont_wdth,wght.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="https://assets.spacegamedev.com/css/fonts/OpenSans-Italic-VariableFont_wdth,wght.woff2" as="font" crossorigin="anonymous">-->
+    <link rel="preload" href="https://assets.spacegamedev.com/css/fonts/Comfortaa-VariableFont_wght.woff2" as="font" crossorigin="anonymous">
+  </head>
+  <!-- End Head, Start Body -->
+  <body>
+    <!-- Javascripts -->
+    <!-- Google tag (gtag.js) https://analytics.google.com/analytics/web/#/p360946171/reports/intelligenthome -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1YLEB435KG" defer></script>
+    <script src="js/googletag.js" defer></script>
+    <!-- Auto detect OS theme -->
+    <script src="js/autotheme.js" defer></script>
+    <!-- Sidebar function -->
+    <script src="js/sidebar.js" defer></script>
+    <!-- Theme switcher button function with cookie -->
+    <script src="js/toggletheme.js" defer></script>
+
+    <!-- Start Header Section -->
+    <div class="header">
+      <div class="header-bg"></div>
+      <!--<a><img src="https://assets.spacegamedev.com/images/ui/hamburger-menu.svg" class="hamburger-menu"></a>-->
+      <button class="openbtn" onclick="openNav()" title="Navigation"><img src="https://assets.spacegamedev.com/images/ui/hamburger-menu.svg" class="openbtn-img" alt="Open Sidebar"></button>
+      <center>
+      <img class="header-logo" src="https:\\spacegamedev-assets.pages.dev/images/webp/avatar-outline.webp" alt="">
+      </center>
+      <button class="btn-toggle" onclick="javascript:void(0)" title="Switch themes"><img class="theme-icon" src="https://spacegamedev-assets.pages.dev/images/ui/theme-toggle.svg" alt="Toggle Light or Dark Theme"></button>
+      <div id="websidebar" class="sidebar">
+        <button class="closebtn" onclick="closeNav()"><img src="https://assets.spacegamedev.com/images/ui/menu-x.svg" class="closenavbutton" title="Close Navigation" alt="Close Navigation" aria-label="Close the navigation bar."></button>
+        <a href="index.html" class="sidebar-link">home</a>
+        <a href="projects.html" class="sidebar-link">projects</a>
+        <a href="downloads.html" class="sidebar-link">downloads</a>
+        <a href="support.html" class="sidebar-link">support</a>
+      </div>
+    </div>
+    <!-- End Header Section-->
+
+<section class="projects">
+<br><br><br><br><br><br>
+<center><p class="projects-header">My Projects</p></center>
+<br><br>
+<p class="projects-subsection-h">Software</p>
+<br><br><br>
+<div class="charles-project">
+<p class="project-name">- Charles</p><br>
+<p class="project-desc">Charles is a command line app I'm working on to learn the fundamentals of Go (golang).<br> It's purpose is to automate various tasks with one simple command.</p>
+<br>
+<a href="https://github.com/SpaceGameDev568/Charles" class="source-link">GitHub</a> <a href="downloads.html" class="download-link">Download</a>
+</div><br><br><br>
+<!--<p class="projects-subsection-h">Games</p>-->
+<p class="projects-subsection-h">Mods</p>
+<br><br><br>
+<div class="sf-mod-project">
+<p class="project-name">- Factory Props</p><br>
+<p class="project-desc">Factory Props is a mod for Satisfactory that repurposes assets from the game as decorative buildings.</p>
+<br>
+<a href="https://github.com/SpaceGameDev568/Factory_Prop_Mod" class="source-link">GitHub</a> <a href="downloads.html" class="download-link">Download</a>
+</div><br><br><br>
+
+<div class="sf-mod-project">
+<p class="project-name">- Remove All Annoyances</p><br>
+<p class="project-desc">Remove All Annoyances is a mod for Satisfactory that removes annoying things from the world.</p>
+<br>
+<a href="https://github.com/SpaceGameDev568/RemoveAllAnnoyances" class="source-link">GitHub</a> <a href="downloads.html" class="download-link">Download</a>
+</div><br><br><br>
+
+<div class="sf-mod-project">
+<p class="project-name">- SatisWHACKtory</p><br>
+<p class="project-desc">SatisWHACKtory is a mod for Satisfactory that adds some fun obstacles to the game to cause chaos in multiplayer sessions.</p>
+<br>
+<a href="https://github.com/SpaceGameDev568/ObstacleMod" class="source-link">GitHub</a> <a href="downloads.html" class="download-link">Download</a>
+</div><br><br><br>
+
+<div class="sf-mod-project">
+<p class="project-name">- Satisfactory Discord Rich Presence</p><br>
+<p class="project-desc">This is a mod for Satisfactory that lets you see your Satisfactory presence info on your Discord profile.</p>
+<br>
+<a href="https://github.com/SpaceGameDev568/FG_DiscordRP" class="source-link">GitHub</a> <a href="downloads.html" class="download-link">Download</a>
+</div><br><br><br>
+</section><br>
+
+<section class="footer">
+    <center><p class="footer-p">
+      <br><br>
+      Copyright © 2022 - 2023 Jesse Hodgson. All Rights Reserved.<br>
+      This website is an open source project, and the source code can be found on <a href="https://github.com/SpaceGameDev568/spacegamedev.com" class="footer-link">GitHub</a>.
+    </p>
+    <br><br>
+    <p class="attribution">
+      Performance and security by Cloudflare.
+      <br><br>
+      Fonts used:
+      <br><br>
+      Comfortaa: <a href="https://fonts.google.com/specimen/Comfortaa" class="footer-link">Comfortaa on Google Fonts</a>
+      <br>
+      Open Sans: <a href="https://fonts.google.com/specimen/Open+Sans" class="footer-link">Open Sans on Google Fonts</a>
+      <br>
+      Orbitron: <a href="https://fonts.google.com/specimen/Orbitron" class="footer-link">Orbitron on Google Fonts</a>
+    </p></center>
+    </section>
+  </body>
+
+</html>
