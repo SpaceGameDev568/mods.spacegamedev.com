@@ -1,3 +1,32 @@
-.horizontal-nav{
+.mmlink{
+    border-radius: 20px;
+    width: 128px;
+    height: 128px;
+}
+
+.deantendo-donate-button{
+    color: #e4141f;
+    padding:10px 20px;
+    background-color: var(--dark-foreground);
+    border-radius: 20px;
+}
+
+body.light .deantendo-donate-button{
+    background-color: var(--light-foreground);
+}
+
+.screenshots-header{
     color: var(--dark-text);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+body.light .screenshots-header{
+    color: var(--light-text);
+}
+
+.screenshots{
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
 }

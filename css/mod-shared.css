@@ -1,0 +1,121 @@
+.mod-nav{
+    color: var(--dark-text);
+    background-color: var(--dark-foreground);
+    width: max-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body.light .mod-nav{
+    color: var(--light-text);
+    background-color: var(--light-foreground);
+}
+
+.mod-nav-link{
+    color: var(--dark-text);
+    background-color: var(--dark-accent);
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+body.light .mod-nav-link{
+    color: var(--dark-text);
+    background-color: var(--dark-foreground);
+}
+
+.mod-nav-link-inactive{
+    color: var(--dark-text);
+    background-color: var(--sgd-blue);
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+body.light .mod-nav-link-inactive{
+    color: var(--dark-text);
+    background-color: var(--sgd-blue);
+}
+
+.mod-nav-link-inactive:hover{
+    background-color: var(--dark-accent);
+}
+
+body.light .mod-nav-link-inactive:hover{
+    background-color: var(--dark-foreground);
+}
+
+.mod-logo{
+    width: 256px;
+    height: 256px;
+    border-radius: 20px;
+}
+
+.mod-title{
+    color: var(--dark-text);
+    font-family: Orbitron;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+body.light .mod-title{
+    color: var(--light-text);
+}
+
+.mod-subtitle{
+    color: var(--dark-text);
+    font-family: Open sans;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+body.light .mod-subtitle{
+    color: var(--light-text)
+}
+
+
+.mod-description{
+    color: var(--dark-text);
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+body.light .mod-description{
+    color: var(--light-text);
+}
+
+.more-info-desc{
+    color: var(--dark-text);
+    font-family: Orbitron;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+body.light .more-info-desc{
+    color: var(--light-text);
+}
+
+.bold-text{
+    color: var(--dark-text);
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-weight: bold;
+}
+
+body.light .bold-text{
+    color: var(--light-text);
+}
+
+.mod-item-list{
+        color: var(--dark-text);
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+        transition: 0s;
+}
+
+body.light .mod-item-list{
+    color: var(--light-text);
+}

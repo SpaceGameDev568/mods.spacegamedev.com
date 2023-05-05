@@ -3,11 +3,12 @@
   <!-- Copyright (©) 2022 - 2023 Jesse Hodgson. All Rights Reserved -->
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Jesse Hodgson's personal projects.">
-    <title>SpaceGameDev's Website</title>
-    <link rel="shortcut icon" type="image/ico" href="https://assets.spacegamedev.com/images\webp\sgd-logo-round.webp"/>
+    <meta name="description" content="Jesse Hodgson, aka SpaceGameDev568 - Software Developer and Digital Artist">
+    <title>Discord Rich Presence - SpaceGameDev Modding</title>
+    <link rel="shortcut icon" type="image/ico" href="https://assets.spacegamedev.com/images\FGDiscordRP.png"/>
     <link rel="stylesheet" href="css\main.css">
-    <link rel="stylesheet" href="css\projects.css">
+    <link rel="stylesheet" href="css\DiscordRP.css">
+    <link rel="stylesheet" href="css\mod-shared.css">
     <link rel="preconnect" href="https://assets.spacegamedev.com"/>
     <link rel="preload" href="https://assets.spacegamedev.com/css/fonts/Orbitron-VariableFont_wght.woff2" as="font" crossorigin="anonymous">
     <!--<link rel="preload" href="https://assets.spacegamedev.com/css/fonts/OpenSans-VariableFont_wdth,wght.woff2" as="font" crossorigin="anonymous">
@@ -26,7 +27,7 @@
     <script src="js/sidebar.js" defer></script>
     <!-- Theme switcher button function with cookie -->
     <script src="js/toggletheme.js" defer></script>
-
+    <br><br><br><br><br><br><br>
     <!-- Start Header Section -->
     <div class="header">
       <div class="header-bg"></div>
@@ -38,63 +39,59 @@
       <button class="btn-toggle" onclick="javascript:void(0)" title="Switch themes"><img class="theme-icon" src="https://spacegamedev-assets.pages.dev/images/ui/theme-toggle.svg" alt="Toggle Light or Dark Theme"></button>
       <div id="websidebar" class="sidebar">
         <button class="closebtn" onclick="closeNav()"><img src="https://assets.spacegamedev.com/images/ui/menu-x.svg" class="closenavbutton" title="Close Navigation" alt="Close Navigation" aria-label="Close the navigation bar."></button>
-        <a href="index.html" class="sidebar-link">home</a>
-        <a href="projects.html" class="sidebar-link">projects</a>
-        <a href="downloads.html" class="sidebar-link">downloads</a>
-        <a href="support.html" class="sidebar-link">support</a>
+        <a href="index.html" class="sidebar-link">Home</a>
+        <a href="support.html" class="sidebar-link">Support</a>
+        <hr>
+        <a href="Factory Props.html" class="sidebar-link">Factory Props</a>
+        <a href="Remove All Annoyances.html" class="sidebar-link">Remove All Annoyances</a>
+        <a href="Satiswhacktory.html" class="sidebar-link">Satiswhacktory</a>
+        <a href="DiscordRP.html" class="sidebar-link">Discord RP</a>
+        <hr>
+        <a href="https://spacegamedev.com" class="sidebar-link">Main Site</a>
       </div>
     </div>
     <!-- End Header Section-->
+    <br>
+    <center>
+        <div class="mod-nav">
+        <a href="DiscordRP.html" class="mod-nav-link">Description</a>&nbsp|
+        <a href="https://ficsit.app/mod/FG_DiscordRP" class="mod-nav-link-inactive">Download</a>
+    </div>
+    <br><br>
+    <img src="https://assets.spacegamedev.com/images\FGDiscordRP.png" class="mod-logo">
+    <br><br>
+    <p class="mod-title">Discord Rich Presence</p>
+    <br>
+    <p class="mod-subtitle">See your Satisfactory presence info on your Discord profile.</p>
+    </center>
+    <p class="mod-description">
+    <br><br>
+    This mod will show your in-game status on your Discord profile. It currently has support for biome, tier, activity, and elapsed time in the active game session.
 
-<section class="projects">
-<br><br><br><br><br><br>
-<center><p class="projects-header">My Projects</p></center>
-<br><br>
-<p class="projects-subsection-h">Software</p>
-<br><br><br>
-<div class="charles-project">
-<p class="project-name">- Charles</p><br>
-<p class="project-desc">Charles is a command line app I'm working on to learn the fundamentals of Go (golang).<br> It's purpose is to automate various tasks with one simple command.</p>
-<br>
-<a href="https://github.com/SpaceGameDev568/Charles" class="source-link">GitHub</a> <a href="downloads.html" class="download-link">Download</a>
-</div><br><br><br>
-<!--<p class="projects-subsection-h">Games</p>-->
-<p class="projects-subsection-h">Mods</p>
-<br><br><br>
-<div class="sf-mod-project">
-<p class="project-name">- Factory Props</p><br>
-<p class="project-desc">Factory Props is a mod for Satisfactory that repurposes assets from the game as decorative buildings.</p>
-<br>
-<a href="https://github.com/SpaceGameDev568/Factory_Prop_Mod" class="source-link">GitHub</a> <a href="downloads.html" class="download-link">Download</a>
-</div><br><br><br>
+    Note: Currently the mod only works if you play Satisfactory in English. It partially works in other languages but the biome thumbnail will not display.
+    </p>
+    <br><br>
+    <center><a href="https://info.spacegamedev.com"><img class="visualizer" src="https://assets.spacegamedev.com/images\webp\satisfactory-modding\RichPresence.webp" alt="Visualizer" title="Click Me!"/></a></center>
+    <br><br>
+    <center><hr class="vertical-section-divider"></center>
+    <br><br>
+    <center><p class="more-info-desc">More info</p></center><br>
 
-<div class="sf-mod-project">
-<p class="project-name">- Remove All Annoyances</p><br>
-<p class="project-desc">Remove All Annoyances is a mod for Satisfactory that removes annoying things from the world.</p>
-<br>
-<a href="https://github.com/SpaceGameDev568/RemoveAllAnnoyances" class="source-link">GitHub</a> <a href="downloads.html" class="download-link">Download</a>
-</div><br><br><br>
-
-<div class="sf-mod-project">
-<p class="project-name">- SatisWHACKtory</p><br>
-<p class="project-desc">SatisWHACKtory is a mod for Satisfactory that adds some fun obstacles to the game to cause chaos in multiplayer sessions.</p>
-<br>
-<a href="https://github.com/SpaceGameDev568/ObstacleMod" class="source-link">GitHub</a> <a href="downloads.html" class="download-link">Download</a>
-</div><br><br><br>
-
-<div class="sf-mod-project">
-<p class="project-name">- Satisfactory Discord Rich Presence</p><br>
-<p class="project-desc">This is a mod for Satisfactory that lets you see your Satisfactory presence info on your Discord profile.</p>
-<br>
-<a href="https://github.com/SpaceGameDev568/FG_DiscordRP" class="source-link">GitHub</a> <a href="downloads.html" class="download-link">Download</a>
-</div><br><br><br>
-</section><br>
-
-<section class="footer">
+    <p class="bold-text">Compatibility Notes:</p><p class="mod-description">
+    <br><br>
+    Currently the mod does not fully support multiplayer, only the host will be able to get presence info, but it will not work for the client(s).
+    <br><br></p>   
+    <p class="mod-description">
+    <br><br>
+    As the game is updated and new items are added this mod will be updated as well.
+    <br><br>
+    Game and vanilla assets by Coffee Stain Studios AB and are their copyright, not mine.
+    <br><br>
+    <section class="footer">
     <center><p class="footer-p">
       <br><br>
       Copyright © 2022 - 2023 Jesse Hodgson. All Rights Reserved.<br>
-      This website is an open source project, and the source code can be found on <a href="https://github.com/SpaceGameDev568/spacegamedev.com" class="footer-link">GitHub</a>.
+      This website is an open source project, and the source code can be found on <a href="https://github.com/SpaceGameDev568/mods.spacegamedev.com" class="footer-link">GitHub</a>.
     </p>
     <br><br>
     <p class="attribution">
