@@ -1,5 +1,0 @@
-<br><br>
-<center><p class="about-intro">Hi, I'm SpaceGameDev, and I create mods for Satisfactory.
-    <br><br>
-    I've been making mods since 2021, when I created my first mod <a class="standard-link" href="factoryprops.html">Factory Props</a>. Since then, I have created 8 mods for the game, 6 of which are currently maintained on <a class="standard-link" href="https://ficsit.app">ficsit.app</a>.
-</p></center>

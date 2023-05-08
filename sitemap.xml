@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://spacegamedev.com/index.html</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://mods.spacegamedev.com/index.html</loc>
+    <lastmod>2023-05-08</lastmod>
   </url>
     <url>
-    <loc>https://spacegamedev.com/projects.html</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://mods.spacegamedev.com/Factory Props.html</loc>
+    <lastmod>2023-05-08</lastmod>
   </url>
     <url>
-    <loc>https://spacegamedev.com/downloads.html</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://mods.spacegamedev.com/Factory Props Gallery.html</loc>
+    <lastmod>2023-05-08</lastmod>
   </url>
     <url>
-    <loc>https://spacegamedev.com/support.html</loc>
-    <lastmod>2023-04-07</lastmod>
+    <loc>https://mods.spacegamedev.com/Remove All Annoyances.html</loc>
+    <lastmod>2023-05-08</lastmod>
+  </url>
+    <url>
+    <loc>https://mods.spacegamedev.com/Satiswhacktory.html</loc>
+    <lastmod>2023-05-08</lastmod>
+  </url>
+    <url>
+    <loc>https://mods.spacegamedev.com/Satiswhacktory Gallery.html</loc>
+    <lastmod>2023-05-08</lastmod>
+  </url>
+    <url>
+    <loc>https://mods.spacegamedev.com/DiscordRP.html</loc>
+    <lastmod>2023-05-08</lastmod>
   </url>
 </urlset>
