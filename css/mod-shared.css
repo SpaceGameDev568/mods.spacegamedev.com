@@ -17,6 +17,7 @@ body.light .mod-nav{
     text-decoration: none;
     padding: 4px;
     border-radius: 4px;
+    font-family: Open Sans, sans-serif;
 }
 
 body.light .mod-nav-link{
@@ -30,6 +31,7 @@ body.light .mod-nav-link{
     text-decoration: none;
     padding: 4px;
     border-radius: 4px;
+    font-family: Open Sans, sans-serif;
 }
 
 body.light .mod-nav-link-inactive{
